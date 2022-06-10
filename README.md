@@ -103,10 +103,49 @@
       <td>refill</td>
       <td>Frägt alle Refill-Standorte über die KarteVonMorgen API ab</td>
    </tr>
-         <tr>
+    <tr>
       <td>UVP</td>
       <td>Requestet die Ergebnisse der Umweltverträglichkeitsprüfung</td>
    </tr>
+    <tr>
+      <td rowspan="17">Data Request Nodes</td>
+   </tr>
+   <tr>
+    <td>geocoder</td>
+    <td>Geocoded ein GeoJSON und ersetzt dessen Geometry (Addresse --> Koordinaten)</td>
+    </tr>
+    <tr>
+        <td>merge-geojson</td>
+        <td>Concatenates die Features von 2 GeoJSONs, oder joined die Properties von 2 Featuren, wenn ein gegebenes Property in beiden Featuren gleich ist.</td>
+     </tr>
+     <tr>
+        <td>geojson-values-filter</td>
+        <td>Filtert die Features eines GeoJSONs abhängig von den Property-Values der Features oder deren Distanz zueinander. Es kann bspw. Nach Outliern (letztes Quantil), nach leeren Properties oder nach speziellen Property-Werten gefiltert werden </td>
+     </tr>
+     <tr>
+        <td>geojson-properties-filter</td>
+        <td>Filtert die Properties aller Features eines GeoJSONs</td>
+     </tr>
+     <tr>
+        <td>geojson-properties-renamer</td>
+        <td>Renamed die Property-Keys der Features eines GeoJSONs</td>
+     </tr>
+     <tr>
+        <td>geojson-spatial-within</td>
+        <td>Verscheidet ein Intersecting GeoJSON und ein Source GeoJSON. Alle Features des Intersecting GeoJSONs, welche innerhalb des Source GeoJSONs liegen, werden beibehalten. Bei LineStrings und Polygonen werden die Geometrien auf die Source Layer geclipped.</td>
+     </tr>
+     <tr>
+        <td>geojson-to-centroids</td>
+        <td>Ersetzt die Geometry eines jeden Features eines GeoJSONs durch den Centroid des Features</td>
+     </tr>
+     <tr>
+        <td>geojson-value-offset</td>
+        <td>Kann benutzt werden, um die Properties eines GeoJSON-Features zu verrechnen (Grundrechenoperationen). Es können entweder 2 Properties eines Features oder 1 Property und eine Konstante miteinander verrechnet werden</td>
+     </tr>
+     <tr>
+        <td>geojson-to-gpkg</td>
+        <td>Transformiert ein GeoJSON in ein Geopackage</td>
+     </tr>
    </tbody>
 </table>
 
