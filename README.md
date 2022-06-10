@@ -45,7 +45,7 @@
    </tr>
    <tr>
       <td>BMVI</td>
-      <td>Scraped die Förderlandkarte des BMVIs. Es kann zwischen fertigen und laufenden Projekten unterschieden werden</td>
+      <td>Scrapet die Förderlandkarte des BMVIs. Es kann zwischen fertigen und laufenden Projekten unterschieden werden</td>
    </tr>
    <tr>
       <td>DbStations</td>
@@ -53,7 +53,7 @@
    </tr>
    <tr>
       <td>Fairteiler</td>
-      <td>Nutzt die Foodsharing API und lädt je nach Auswahl die aktuellen Foodbaskets oder die Standorte der Fairtailer herunter. Zusätzlich wird die Fairtailer Webseite gescraped um weitere Informationen (Beschreibung etc.) zu den einzelnen Fairtailern/Foodbaskets zu erhalten</td>
+      <td>Nutzt die Foodsharing API und lädt je nach Auswahl die aktuellen Foodbaskets oder die Standorte der Fairtailer herunter. Zusätzlich wird die Fairtailer Webseite gescrapet um weitere Informationen (Beschreibung etc.) zu den einzelnen Fairtailern/Foodbaskets zu erhalten</td>
    </tr>
     <tr>
       <td>Freifunk</td>
@@ -116,7 +116,7 @@
     </tr>
     <tr>
         <td>merge-geojson</td>
-        <td>Concatenates die Features von 2 GeoJSONs, oder joined die Properties von 2 Featuren, wenn ein gegebenes Property in beiden Featuren den gleichen Wert aufweist</td>
+        <td>Verkettet die Features von 2 GeoJSONs, oder verknüpft die Properties von 2 Featuren, wenn ein gegebenes Property in beiden Featuren den gleichen Wert aufweist</td>
      </tr>
      <tr>
         <td>geojson-values-filter</td>
@@ -160,7 +160,7 @@
      </tr>
      <tr>
         <td>osm-overpass-to-geojson</td>
-        <td>Wandelt das OSM-XML in ein GeoJSON um</td>
+        <td>Wandelt das OSM-JSON in ein GeoJSON um</td>
      </tr>
    </tbody>
 </table>
