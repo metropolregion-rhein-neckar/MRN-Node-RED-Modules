@@ -2,18 +2,16 @@
 
       <table>
          <tr>
-            <th colspan="2"></th>
-            <th></th>
+            <th>Kategorie</th>
+            <th>Name</th>
+            <th>Beschreibung</th>
          </tr>
          <tr>
-            <td></td>
-            <td></td>
-            <td rowspan="2"></td>
-         </tr>
-         <tr>
+            <td rowspan="2">CKAN</td>
             <td></td>
             <td></td>
          </tr>
+
       </table>
 
 
