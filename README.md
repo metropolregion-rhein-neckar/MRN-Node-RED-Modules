@@ -108,7 +108,7 @@
       <td>Requestet die Ergebnisse der Umweltverträglichkeitsprüfung</td>
    </tr>
     <tr>
-      <td rowspan="17">Data Request Nodes</td>
+      <td rowspan="9">GeoJSON</td>
    </tr>
    <tr>
     <td>geocoder</td>
@@ -146,8 +146,23 @@
         <td>geojson-to-gpkg</td>
         <td>Transformiert ein GeoJSON in ein Geopackage</td>
      </tr>
+     <tr>
+        <td>Geoserver</td>
+        <td>geoserver-publish</td>
+        <td>Pusht ein Geopackage auf einen angegebenen Arbeitsbereich eines Geoservers</td>
+     </tr>
+     <tr>
+        <td rowspan="2">OpenStreetMap  </td>
+     </tr>
+     <tr>
+        <td>osm-overpass-download</td>
+        <td>Nutzt die overpass-API, um OSM Daten herunterzuladen. Kann nach Tags filtern und Filtertags können verkettet werden. </td>
+     </tr>
+     <tr>
+        <td>osm-overpass-to-geojson</td>
+        <td>Wandelt das OSM-XML in ein GeoJSON um</td>
+     </tr>
    </tbody>
 </table>
-
 
 
