@@ -1,6 +1,6 @@
 # Node-RED
 
-In der folgenden Tabelle sind die von der Metrpolregion Rhein-Neckar entwickelten Node-Red Nodes aufgelistet. Der Sourcecode ist auf Anfrage erhältlich, bitte wenden Sie sich hierfür an heinrich.lorei@m-r-n.com.
+In der folgenden Tabelle sind die von der Metropolregion Rhein-Neckar entwickelten Node-Red Knoten aufgelistet. Der Sourcecode ist auf Anfrage erhältlich, bitte wenden Sie sich hierfür an heinrich.lorei@m-r-n.com.
 
 
 <table>
