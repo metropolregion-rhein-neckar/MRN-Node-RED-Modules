@@ -61,7 +61,7 @@
    </tr>
    <tr>
       <td>goingElectric</td>
-      <td>Nutzt die goingElectric-API und eine BBox um Ladesäulenstandorte innerhalb der gewählten Region herunterzuladen. Es kann zusätzlich nach Fast-Charger gefiltert werden</td>
+      <td>Nutzt die goingElectric API und eine BBox um Ladesäulenstandorte innerhalb der gewählten Region herunterzuladen. Es kann zusätzlich nach Fast-Charger gefiltert werden</td>
    </tr>
    <tr>
       <td>Ladesäulenregister</td>
@@ -85,7 +85,7 @@
    </tr>
    <tr>
       <td>mundraub</td>
-      <td>Frägt die von der Community eingetragenen Mundraubstandorte inklusive Beschreibung ab.</td>
+      <td>Frägt die von der Community eingetragenen Mundraubstandorte inklusive Beschreibung ab</td>
    </tr>
    <tr>
       <td>Nextbike (MRN ONLY)</td>
@@ -132,7 +132,7 @@
      </tr>
      <tr>
         <td>geojson-spatial-within</td>
-        <td>Verscheidet ein Intersecting GeoJSON und ein Source GeoJSON. Alle Features des Intersecting GeoJSONs, welche innerhalb des Source GeoJSONs liegen, werden beibehalten. Bei LineStrings und Polygonen werden die Geometrien auf die Source Layer geclipped.</td>
+        <td>Verscheidet ein Intersecting GeoJSON und ein Source GeoJSON. Alle Features des Intersecting GeoJSONs, welche innerhalb des Source GeoJSONs liegen, werden beibehalten. Bei LineStrings und Polygonen werden die Geometrien auf die Source Layer geclipped</td>
      </tr>
      <tr>
         <td>geojson-to-centroids</td>
@@ -156,7 +156,7 @@
      </tr>
      <tr>
         <td>osm-overpass-download</td>
-        <td>Nutzt die overpass-API, um OSM Daten herunterzuladen. Kann nach Tags filtern und Filtertags können verkettet werden. </td>
+        <td>Nutzt die overpass-API, um OSM Daten herunterzuladen. Kann nach Tags filtern und Filtertags können verkettet werden </td>
      </tr>
      <tr>
         <td>osm-overpass-to-geojson</td>
