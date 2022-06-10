@@ -10,7 +10,7 @@
    </thead>
    <tbody>   
    <tr>
-      <td rowspan="3">CKAN</td>
+      <td rowspan="6">CKAN</td>
    </tr>
    <tr>
       <td>ckan-dataset-update-prepare</td>
