@@ -1,6 +1,17 @@
 # Node-RED
 
-First Header  | Second Header | Third Header |
- ------------ | :-----------: | -----------: |
-| ^           |               | 1. second item |
-| ^         |               | 1. second item |
+      <table>
+         <tr>
+            <th colspan="2"></th>
+            <th></th>
+         </tr>
+         <tr>
+            <td></td>
+            <td></td>
+            <td rowspan="2"></td>
+         </tr>
+         <tr>
+            <td></td>
+            <td></td>
+         </tr>
+      </table>
