@@ -116,7 +116,7 @@
     </tr>
     <tr>
         <td>merge-geojson</td>
-        <td>Concatenates die Features von 2 GeoJSONs, oder joined die Properties von 2 Featuren, wenn ein gegebenes Property in beiden Featuren gleich ist.</td>
+        <td>Concatenates die Features von 2 GeoJSONs, oder joined die Properties von 2 Featuren, wenn ein gegebenes Property in beiden Featuren den gleichen Wert aufweist</td>
      </tr>
      <tr>
         <td>geojson-values-filter</td>
