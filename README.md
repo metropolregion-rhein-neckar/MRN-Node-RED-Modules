@@ -41,7 +41,7 @@
       <td>Überprüft die Datasets einer CKAN-Instanz auf tote Ressourcen-Links, ob eine Beschreibung vorhanden ist etc.</td>
    </tr>
    <tr>
-      <td rowspan="17">Data Request Nodes</td>
+      <td rowspan="17"><b>Data Request Nodes</b></td>
    </tr>
    <tr>
       <td>BMVI</td>
@@ -108,7 +108,7 @@
       <td>Requestet die Ergebnisse der Umweltverträglichkeitsprüfung</td>
    </tr>
     <tr>
-      <td rowspan="9">GeoJSON</td>
+      <td rowspan="10"><b>GeoJSON</b></td>
    </tr>
    <tr>
     <td>geocoder</td>
@@ -147,12 +147,12 @@
         <td>Transformiert ein GeoJSON in ein Geopackage</td>
      </tr>
      <tr>
-        <td>Geoserver</td>
+        <td><b>Geoserver</b></td>
         <td>geoserver-publish</td>
         <td>Pusht ein Geopackage auf einen angegebenen Arbeitsbereich eines Geoservers</td>
      </tr>
      <tr>
-        <td rowspan="2">OpenStreetMap  </td>
+        <td rowspan="3"><b>OpenStreetMap </b></td>
      </tr>
      <tr>
         <td>osm-overpass-download</td>
